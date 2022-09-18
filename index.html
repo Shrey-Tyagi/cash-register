@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style src ="/style.css"></style>
+    <link rel="stylesheet" href="/styles.css">
     <title>Cash Register</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <input type="text" id="billed-amount">
     <label for="cash-amount">Cash Given:</label>
     <input type="text" id="cash-amount">
-    <button id="button-check">Check</button>
+    <button id="button-check" class="link link-primary">Check</button>
     <h2>Return Change</h2>
     <h2 id="error-message"></h2>
     <table>
@@ -39,7 +39,14 @@
             <td>1</td>
         </tr>
     </table>
-    
+    <footer class="footer">
+        <div class="footer-header">Stay connected with me on</div>
+           <ul>
+               <li class="list-item-inline"><a class="link " href="https://github.com/Shrey-Tyagi">GitHub</a></li>
+               <li class="list-item-inline"><a class="link " href="https://www.linkedin.com/in/shrey-tyagi">Linkedin</a></li>
+               <li class="list-item-inline"><a class="link " href="https://twitter.com/ShreyyTyagi">Twitter</a></li>
+           </ul>
+    </footer>
 </body>
 <script src="/app.js"></script>
 </html>
